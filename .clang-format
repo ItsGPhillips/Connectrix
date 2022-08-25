@@ -1,0 +1,86 @@
+---
+Standard: "c++17"
+Language: Cpp
+AlignArrayOfStructures: Right
+AlignTrailingComments: true
+AlignAfterOpenBracket: AlwaysBreak
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignEscapedNewlines: Right
+AlignOperands: Align
+AlignTrailingComments: true
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Empty
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+AllowAllParametersOfDeclarationOnNextLine: false
+AlwaysBreakAfterReturnType: None
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBinaryOperators: NonAssignment
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+
+PenaltyReturnTypeOnItsOwnLine: 200
+PenaltyBreakAssignment: 85
+PenaltyExcessCharacter: 50
+PenaltyBreakBeforeFirstCallParameter: 20
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterEnum: true
+  AfterClass: true
+  AfterStruct: true
+  AfterNamespace: true
+  AfterFunction : true
+  BeforeLambdaBody: false
+  SplitEmptyFunction: false
+
+ContinuationIndentWidth: 3
+ConstructorInitializerIndentWidth: 3
+IndentWidth: 3
+TabWidth: 3
+AccessModifierOffset: -3
+
+AlignAfterOpenBracket: Align
+AlwaysBreakAfterReturnType: None
+InsertTrailingCommas: Wrapped
+BreakInheritanceList: AfterComma
+BreakBeforeTernaryOperators: true
+BreakStringLiterals: false
+ColumnLimit: 100
+Cpp11BracedListStyle: false
+DerivePointerAlignment: false
+ExperimentalAutoDetectBinPacking: false
+IndentCaseLabels: true
+IndentWrappedFunctionNames: false
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: All
+PointerAlignment: Left
+ReferenceAlignment: Left
+ReflowComments: true
+SortIncludes: CaseSensitive
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeParens: Always
+SpaceInEmptyParentheses: false
+SpaceBeforeInheritanceColon: false
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakAfterDefinitionReturnType: None
+
+IndentPPDirectives: BeforeHash
+# PackConstructorInitializers: Never
+
